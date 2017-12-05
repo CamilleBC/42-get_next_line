@@ -6,7 +6,7 @@
 /*   By: cbaillat <cbaillat@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/12/04 19:34:50 by cbaillat          #+#    #+#             */
-/*   Updated: 2017/12/05 14:46:10 by cbaillat         ###   ########.fr       */
+/*   Updated: 2017/12/05 19:47:33 by cbaillat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 
 # include <stdlib.h>
 # include <unistd.h>
-# include "lib/libft.h"
+# include "libft/libft.h"
 
 // DEBUG
 # include <stdio.h>

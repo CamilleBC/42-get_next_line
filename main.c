@@ -6,12 +6,12 @@
 /*   By: cbaillat <cbaillat@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/12/05 08:50:34 by cbaillat          #+#    #+#             */
-/*   Updated: 2017/12/05 19:38:12 by cbaillat         ###   ########.fr       */
+/*   Updated: 2017/12/05 19:45:38 by cbaillat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <fcntl.h>
-#include "lib/libft.h"
+#include "libft/libft.h"
 #include "get_next_line.h"
 
 int	main(int ac, char **av)
