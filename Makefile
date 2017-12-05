@@ -6,11 +6,11 @@
 #    By: cbaillat <cbaillat@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2017/11/13 18:12:06 by cbaillat          #+#    #+#              #
-#    Updated: 2017/12/05 09:40:38 by cbaillat         ###   ########.fr        #
+#    Updated: 2017/12/05 15:03:25 by cbaillat         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-TARGET_EXEC  := fillit
+TARGET_EXEC  := get_next_line
 
 #directories
 SRCS_DIR  := ./
@@ -28,7 +28,7 @@ DEPS_FLAGS = -MD -MP
 
 # # compiler and flags
 CC     := gcc
-CFLAGS := -Wall -Wextra -Werror
+CFLAGS := -g
 
 # # libraries
 LIBS := ft

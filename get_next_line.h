@@ -6,7 +6,7 @@
 /*   By: cbaillat <cbaillat@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/12/04 19:34:50 by cbaillat          #+#    #+#             */
-/*   Updated: 2017/12/04 21:26:00 by cbaillat         ###   ########.fr       */
+/*   Updated: 2017/12/05 14:46:10 by cbaillat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,10 @@
 
 # include <stdlib.h>
 # include <unistd.h>
+# include "lib/libft.h"
+
+// DEBUG
+# include <stdio.h>
 
 # define BUFF_SIZE	32
 # define ULIMIT_N	(uint32_t)4864
@@ -22,7 +26,6 @@
 # define FILE_READ	(int8_t)0
 # define ERROR		(int8_t)-1
 # define SUCCESS	(int8_t)0
-# define FAILURE	(int8_t)-1
 
 typedef struct	s_filedes
 {
