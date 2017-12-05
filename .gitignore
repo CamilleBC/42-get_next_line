@@ -1,0 +1,6 @@
+.clang-format
+.vscode
+/build/
+/lib/build/
+/lib/libft.a
+test_gnl
