@@ -6,7 +6,7 @@
 /*   By: cbaillat <cbaillat@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/12/04 19:34:50 by cbaillat          #+#    #+#             */
-/*   Updated: 2017/12/05 19:47:33 by cbaillat         ###   ########.fr       */
+/*   Updated: 2017/12/08 17:57:50 by cbaillat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,11 +17,10 @@
 # include <unistd.h>
 # include "libft/libft.h"
 
-// DEBUG
 # include <stdio.h>
 
-# define BUFF_SIZE	32
-# define ULIMIT_N	(uint32_t)4864
+# define BUFF_SIZE	42
+# define ULIMIT_N	(int32_t)4864
 # define LINE_READ	(int8_t)1
 # define FILE_READ	(int8_t)0
 # define ERROR		(int8_t)-1

@@ -1,6 +1,7 @@
 .clang-format
 .vscode
+*.code-workspace
 /build/
 /lib/build/
 /lib/libft.a
-test_gnl
+test*
