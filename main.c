@@ -6,7 +6,7 @@
 /*   By: cbaillat <cbaillat@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/12/05 08:50:34 by cbaillat          #+#    #+#             */
-/*   Updated: 2017/12/08 18:27:35 by cbaillat         ###   ########.fr       */
+/*   Updated: 2017/12/11 10:36:20 by cbaillat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,9 +31,15 @@ int	main(int ac, char **av)
 		status = get_next_line(fd, &line_read);
 		// printf("status: %d\n", status);
 		if (status == ERROR)
+		{
+			free (line_read);
 			return (ERROR);
+		}
 		if (status == FILE_READ)
+		{
+			free (line_read);
 			return (SUCCESS);
+		}
 		ft_putstr(line_read);
 		free (line_read);
 	}
